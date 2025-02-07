@@ -1,0 +1,143 @@
+/* Resetando margens e preenchimentos para garantir consistência em todos os navegadores */
+* {
+    margin: 0; /* Remove a margem padrão */
+    padding: 0; /* Remove o preenchimento padrão */
+    box-sizing: border-box; /* Aplica o modelo de caixa com borda, facilitando o cálculo de larguras e alturas */
+  }
+  
+  /* Estilo do corpo da página */
+  body {
+    font-family: 'Arial', sans-serif; /* Fonte padrão para o corpo do texto */
+    background-color: #111; /* Cor de fundo escura para dar um clima sombrio */
+    color: #fff; /* Cor do texto em branco */
+  }
+  
+  /* Cabeçalho da página */
+  header {
+    text-align: center; /* Alinha o conteúdo ao centro */
+    padding: 30px; /* Espaçamento interno */
+    background-color: #222; /* Cor de fundo escura */
+    color: #00ff00; /* Cor do texto verde, para remeter ao veneno */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); /* Sombra para dar profundidade */
+  }
+  
+  /* Estilo do título principal */
+  header h1 {
+    font-family: 'Bangers', sans-serif; /* Fonte ousada e chamativa */
+    font-size: 4em; /* Tamanho grande */
+    font-weight: bold; /* Título em negrito */
+  }
+  
+  /* Estilo do texto no cabeçalho */
+  header p {
+    font-size: 1.2em; /* Tamanho do texto explicativo */
+    margin-top: 10px; /* Espaço acima do texto */
+  }
+  
+  /* Seção Hero: A parte de introdução de Singed */
+  .hero {
+    background-image: url('singed-bg.jpg'); /* Imagem de fundo (substitua pelo arquivo correto) */
+    background-size: cover; /* A imagem cobre toda a área disponível */
+    background-position: center; /* A imagem é centralizada */
+    padding: 100px 20px; /* Espaçamento interno */
+    text-align: center; /* Alinha o texto ao centro */
+    color: #fff; /* Cor do texto branca */
+    border-bottom: 5px solid #00ff00; /* Linha verde na parte inferior */
+  }
+  
+  /* Estilo do subtítulo dentro da seção Hero */
+  .hero-text h2 {
+    font-family: 'Bangers', sans-serif; /* Fonte ousada */
+    font-size: 2.5em; /* Tamanho maior */
+    margin-bottom: 10px; /* Espaço abaixo */
+  }
+  
+  /* Estilo do parágrafo dentro da seção Hero */
+  .hero-text p {
+    font-size: 1.4em; /* Tamanho do texto explicativo */
+    line-height: 1.5; /* Maior espaçamento entre as linhas */
+  }
+  
+  /* Seção de habilidades */
+  .abilities {
+    padding: 50px 20px; /* Espaçamento interno */
+    background-color: #333; /* Cor de fundo escura */
+    text-align: center; /* Alinha o texto ao centro */
+  }
+  
+  /* Título da seção de habilidades */
+  .abilities h2 {
+    font-family: 'Russo One', sans-serif; /* Fonte forte e moderna */
+    font-size: 2.5em; /* Tamanho grande */
+    color: #00ff00; /* Cor verde para o tema do veneno */
+    margin-bottom: 20px; /* Espaço abaixo */
+  }
+  
+  /* Estilo das divs das habilidades */
+  .ability {
+    background-color: #444; /* Cor de fundo mais clara para as habilidades */
+    margin: 20px auto; /* Margem superior e inferior */
+    padding: 20px; /* Espaçamento interno */
+    width: 80%; /* Largura relativa */
+    max-width: 600px; /* Largura máxima */
+    border-radius: 10px; /* Bordas arredondadas */
+    transition: transform 0.3s ease, background-color 0.3s ease; /* Transições suaves para transformações e mudança de cor */
+  }
+  
+  /* Estilo do título de cada habilidade */
+  .ability h3 {
+    font-family: 'Russo One', sans-serif; /* Fonte forte e moderna */
+    font-size: 2.5em; /* Tamanho grande */
+    color: #00ff00; /* Cor verde para combinar com o tema de veneno */
+    text-transform: uppercase; /* Títulos em letras maiúsculas */
+    margin-bottom: 10px; /* Espaço abaixo do título */
+  }
+  
+  /* Estilo do parágrafo de cada habilidade */
+  .ability p {
+    font-size: 1.2em; /* Tamanho do texto descritivo */
+    color: #ccc; /* Cor do texto em um tom mais claro */
+    line-height: 1.5; /* Maior espaçamento entre as linhas */
+  }
+  
+  /* Efeito de hover nas habilidades (passar o mouse) */
+  .ability:hover {
+    background-color: #666; /* Cor de fundo mais clara ao passar o mouse */
+    transform: scale(1.05); /* Aumenta ligeiramente o tamanho do item */
+  }
+  
+  /* Estilos específicos para cada habilidade com imagens de fundo */
+  .ability#poison-trail {
+    background-image: url('poison-trail-bg.jpg'); /* Imagem de fundo para a habilidade Poison Trail */
+    background-size: cover; /* A imagem cobre toda a área */
+    color: #00ff00; /* Cor verde */
+  }
+  
+  .ability#fling {
+    background-image: url('fling-bg.jpg'); /* Imagem de fundo para a habilidade Fling */
+    background-size: cover; /* A imagem cobre toda a área */
+    color: #ff9900; /* Cor laranja */
+  }
+  
+  .ability#insanity-potion {
+    background-image: url('insanity-potion-bg.jpg'); /* Imagem de fundo para a habilidade Insanity Potion */
+    background-size: cover; /* A imagem cobre toda a área */
+    color: #ff3300; /* Cor vermelha */
+  }
+  
+  .ability#mega-adhesive {
+    background-image: url('mega-adhesive-bg.jpg'); /* Imagem de fundo para a habilidade Mega Adhesive */
+    background-size: cover; /* A imagem cobre toda a área */
+    color: #66ccff; /* Cor azul */
+  }
+  
+  /* Rodapé */
+  footer {
+    background-color: #222; /* Cor de fundo escura */
+    text-align: center; /* Alinha o texto ao centro */
+    padding: 10px; /* Espaçamento interno */
+    color: #aaa; /* Cor do texto em cinza */
+    font-size: 1em; /* Tamanho do texto */
+    margin-top: 40px; /* Espaço acima do rodapé */
+  }
+  
